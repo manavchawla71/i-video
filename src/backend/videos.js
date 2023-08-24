@@ -1,0 +1,178 @@
+import { v4 as uuid } from "uuid";
+/**
+ * Videos Database can be added here.
+ * You can add videos of your wish with different attributes
+ * */
+
+export const videos = [
+  {
+    _id: "9-hmg1UHySY",
+    img: "https://ik.imagekit.io/yol3sixl2xj/comedy2_slQYoBTEP.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1648375300833",
+    title:
+      "Friends: Phoebe, Chandler and Monica Babysit The Triplets (Season 6 Clip) | TBS",
+    owner: "TBS",
+    views: "176k",
+    date: "Dec 4, 2021",
+    categoryName: "Comedy",
+  },
+  {
+    _id: "7rDeTPxIz-Q",
+    img: "https://ik.imagekit.io/yol3sixl2xj/comedy1_BhvXxjkjR.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1648375300047",
+    title: "Friends Best Moments From Season 2",
+    owner: "Clash World",
+    views: "380k",
+    date: "Mar 16, 2021",
+    categoryName: "Comedy",
+  },
+  {
+    _id: "L5STHzbIglg",
+    img: "https://ik.imagekit.io/yol3sixl2xj/comedy3_06qgAQ6oM.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1648375301073",
+    title:
+      "Friends: The Friends Meet Rachel’s Spoiled Sister, Jill (Season 6 Clip) | TBS",
+    owner: "TBS",
+    views: "113k",
+    date: "Feb 28, 2022",
+    categoryName: "Comedy",
+  },
+  {
+    _id: "JVZMcBoEhT4",
+    img: "https://ik.imagekit.io/yol3sixl2xj/comedy4_QUeSyDTeY.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1648375301397",
+    title:
+      "Friends: Monica Is Jealous Phoebe Picks Rachel To Date (Season 6 Clip) | TBS",
+    owner: "TBS",
+    views: "776k",
+    date: "Feb 14, 2022",
+    categoryName: "Comedy",
+  },
+  {
+    _id: "a6HJkshGqEQ",
+    img: "https://ik.imagekit.io/yol3sixl2xj/comedy5_IXUv8W-QC.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1648375301731",
+    title: "Friends: Ross' Fake British Accent (Season 6 Clip) | TBS",
+    owner: "TBS",
+    views: "768k",
+    date: "Feb 18, 2022",
+    categoryName: "Comedy",
+  },
+  {
+    _id: "tCuRbIInrOo",
+    img: "https://ik.imagekit.io/yol3sixl2xj/action1_6W68E9f8a.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375297810",
+    title: "Best Of Spider Man Saves",
+    owner: "MovieZ4U",
+    views: "17.5M",
+    date: "Oct 19, 2015",
+    categoryName: "Action",
+  },
+  {
+    _id: "UGjlrq67Eh8",
+    img: "https://ik.imagekit.io/yol3sixl2xj/action2_EXRXVLlb9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375297867",
+    title: "SPIDER-MAN Vs VENOM Best Action Scenes 4K ᴴᴰ",
+    owner: "ONE Media",
+    views: "8.5M",
+    date: "Dec 30, 2021",
+    categoryName: "Action",
+  },
+  {
+    _id: "43si9s7ulU8",
+    img: "https://ik.imagekit.io/yol3sixl2xj/action3_PoeYx6WU3X.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375297955",
+    title:
+      "Spider-Man vs Sandman - Subway Fight Scene - Spider-Man 3 (2007) Movie CLIP HD",
+    owner: "TopMovieClips",
+    views: "66M",
+    date: "Jul 18, 2017",
+    categoryName: "Action",
+  },
+  {
+    _id: "tdMaz-x8BAI",
+    img: "https://ik.imagekit.io/yol3sixl2xj/action4_qHoRcn8RL.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375298386",
+    title: "Avengers: Endgame | Final Battle #1 | 4K 60fps",
+    owner: "The Entertainment Analyst",
+    views: "780k",
+    date: "Oct 17, 2021",
+    categoryName: "Action",
+  },
+  {
+    _id: "dE1P4zDhhqw",
+    img: "https://ik.imagekit.io/yol3sixl2xj/action5_bhjI_Z3Ch.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375299014",
+    title:
+      "Captain America Avengers Assemble Scene - Portal Scene - Avengers : Endgame (2019) Scene",
+    owner: "BestScene",
+    views: "15M",
+    date: "Nov 8, 2020",
+    categoryName: "Action",
+  },
+
+  {
+    _id: "1HCXqsIaGyA",
+    img: "https://ik.imagekit.io/yol3sixl2xj/horror2_v_JHOVV-T.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375302618",
+    title:
+      "The Little Hours FULL MOVIE 2017 English Sub || Alison Brie, Dave Franco, Kate Micucci",
+    owner: "は Wedang Tuak",
+    views: "1k",
+    date: "Mar 23, 2022",
+    categoryName: "Horror",
+  },
+  {
+    _id: "evzsN1BGR6A",
+    img: "https://ik.imagekit.io/yol3sixl2xj/horror3_s3-J7a_Ev.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375303145",
+    title: "The Nun: Escape the Abbey 360",
+    owner: "Warner Bros. Pictures",
+    views: "5.9M",
+    date: "Aug 22, 2018",
+    categoryName: "Horror",
+  },
+  {
+    _id: "bQWwdfKnrOo",
+    img: "https://ik.imagekit.io/yol3sixl2xj/horror4_Gh8etIsDk.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375303471",
+    title: "The Woman in Black (1989)",
+    owner: "Rock n Roll Martian",
+    views: "15k",
+    date: "Oct 24, 2021",
+    categoryName: "Horror",
+  },
+  {
+    _id: "bVo3T6Jh56E",
+    img: "https://ik.imagekit.io/yol3sixl2xj/thriller1_FJCtqs3fr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375304586",
+    title: "Eleven & Mike's Cutest Moments | Stranger Things S1-3",
+    owner: "Still Watching Netflix",
+    views: "8.9M",
+    date: "Jul 10, 2019",
+    categoryName: "Thriller",
+  },
+  {
+    _id: "R1ZXOOLMJ8s",
+    img: "https://ik.imagekit.io/yol3sixl2xj/thriller2_Sfw_cr75q.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375304889",
+    title: "Stranger Things 2 | Official Final Trailer | Netflix",
+    owner: "Netflix",
+    views: "24M",
+    date: "Oct 13, 2017",
+    categoryName: "Thriller",
+  },
+  {
+    _id: "q_coTUUlhwQ",
+    img: "https://ik.imagekit.io/yol3sixl2xj/Thriller3_sj_MYdfLs.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375305639",
+    title: "The 11 Spookiest Monster Moments | Stranger Things | Netflix",
+    owner: "Stranger Things",
+    views: "10.9M",
+    date: "Oct 15, 2019",
+    categoryName: "Thriller",
+  },
+  {
+    _id: "WZVG7THSvBY",
+    img: "https://ik.imagekit.io/yol3sixl2xj/Thriller4_60kpvxT5T.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375305826",
+    title: "Legendary Dragon Scene Game of Thrones Season 5 (HD)",
+    owner: "Blazor26",
+    views: "10.7M",
+    date: "Jun 8, 2015",
+    categoryName: "Thriller",
+  },
+  {
+    _id: "V4PPWYCqPKo",
+    img: "https://ik.imagekit.io/yol3sixl2xj/thriller5_BoHAsD5EZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648375306432",
+    title:
+      "Epic Dragon Scene Game of Thrones Season 3 Daenerys Targaryen Rise to Power (Part 1) (HD)",
+    owner: "Khaleesi",
+    views: "20M",
+    date: "Oct 19, 2021",
+    categoryName: "Thriller",
+  },
+];

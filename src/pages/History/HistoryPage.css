@@ -1,0 +1,67 @@
+/* HistoryPage.css */
+
+/* HistoryPage.css */
+
+.history-page {
+    padding: 20px;
+    margin-left: 250px; /* Adjust this value based on your sidebar width */
+  }
+  
+  .history-video-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* ... rest of the styles ... */
+  
+  .history-video {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin-top: 8pc;
+  }
+  
+  .history-video-thumbnail {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .history-video h2 {
+    margin: 0;
+    font-size: 18px;
+    color :white;
+  }
+  
+  .history-video p {
+    margin: 5px 0;
+    color: white;
+  }
+  
+  /* Center the video details */
+  .history-video h3,
+  .history-video p {
+    text-align: center;
+    margin-top: 3pc;
+    color: white;
+  }
+  
+  /* Add some spacing between elements */
+  .history-video h3 {
+    margin-top: 10px;
+  }
+  
+  /* Apply hover effect to the video cards */
+  .history-video:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .green {
+    color: var(--green-color);
+  }
+  .paragraph{
+    color:white;
+  }

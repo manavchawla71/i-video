@@ -1,0 +1,74 @@
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    height: 5rem;
+    background-color: var(--background-color);
+    color: var(--green-color);
+    border-bottom: 1px solid var(--green-color);
+  }
+  .navbar-title {
+    text-decoration: none; /* Remove the underline */
+    color: green; /* Set the text color to green */
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+    .hamburgur-icon {
+    font-size: 2rem;
+    margin-left: 10px;
+    display: none;
+  }
+  .hamburgur-display {
+    display: none;
+  }
+  .search-input-container {
+    border: 2px solid var(--green-color);
+    border-radius: 3px;
+    padding-right: 7rem;
+    align-items: start;
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+  .search {
+    padding: 0.4rem 1rem;
+    width: 20rem;
+    border-radius: 3px;
+    gap: 1rem;
+  }
+  .search-input {
+    padding: 0.3rem;
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 3px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    width: 14rem;
+  }
+  .login-nav {
+    margin: 0 1.5rem;
+  }
+  .hamburgur-display {
+    display: none;
+  }
+  @media only screen and (max-width: 900px) {
+    .search-input-container {
+      display: none;
+    }
+    .login-nav {
+      margin-left: auto;
+    }
+    .hamburgur-icon {
+      display: flex;
+    }
+    .hamburgur-display {
+      display: flex;
+    }
+  }
+  

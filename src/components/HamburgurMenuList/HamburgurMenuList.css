@@ -1,0 +1,35 @@
+:root {
+    --light-color: #fae8ff;
+  }
+  .hamburgur-menu {
+    padding: 1rem;
+    position: fixed;
+    margin-top: 2.6rem;
+    z-index: 3;
+    top: 2.5rem;
+    left: 0;
+    list-style: none;
+    background-color: var(--light-green);
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    transform: 0.3s ease-in-out;
+  }
+  .hamburgur-menu-item {
+    color: black;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;
+    gap: 15px;
+  }
+  .hamburgur-menu-item:hover {
+    cursor: pointer;
+    color: var(--purple-medium);
+  }
+  @media only screen and (max-width: 900px) {
+    .hamburgur-menu {
+      display: flex;
+    }
+  }
+  

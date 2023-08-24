@@ -1,13 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-size: 100%;
+  font-family: "Lato", sans-serif;
+  background-color: var(--background-color);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --background-color: #161729;
+  --green-color: #22fcd0;
+  --light-green: #229081;
+  --lightest-green: #137363;
+  --off-green: #13726b;
+  --white-color: #fefeff;
+}
+.flex {
+  display: flex;
+}
+.flex-row-only {
+  display: flex;
+  align-items: center;
+}
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.margin-top-bottom-zero {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-name-text {
+  font-family: "Kaushan Script", cursive;
+  color: var(--purple-medium);
+}
+.landing-page {
+  margin-top: 7rem;
+}
+.responsive-img {
+  width: 100%;
+  height: 100%;
+}
+.text-align-center {
+  text-align: center;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color:white;
+}
+button:hover {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.link-color {
+  color: var(--green-color);
+}
+.link:hover {
+  cursor: pointer;
+}
+.text-center {
+  text-align: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.green {
+  color: var(--green-color);
+}
+.light-green {
+  color: var(--light-green);
+}
+.white {
+  color: var(--white-color);
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 85%;
+  }
 }

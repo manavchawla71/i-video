@@ -1,0 +1,66 @@
+.video-listing-page {
+    margin-top: 5rem;
+    margin-left: 7rem;
+    width: auto;
+    height: 100%;
+    padding: 2rem;
+    background-color: var(--background-color);
+  }
+  
+  .search-input-container-two {
+    display: none;
+    color: var(--green-color);
+    border: 2px solid var(--green-color);
+    border-radius: 3px;
+    width: 80%;
+    margin-bottom: 2rem;
+    align-items: start;
+  }
+  .search {
+    padding: 0.4rem 1rem;
+    border-radius: 3px;
+    gap: 1rem;
+  }
+  .search-input {
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 3px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    width: 25rem;
+    color: var(--green-color);
+    background-color: var(--background-color);
+  }
+  .category-chips-container {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  .category-chips {
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+    border-radius: 3px;
+    border: 1px solid var(--green-color);
+    color: var(--white-color);
+  }
+  .chip-default {
+    background-color: var(--green-color);
+    color: var(--background-color);
+  }
+  
+  @media screen and (max-width: 900px) {
+    .video-listing-page {
+      margin-left: 0;
+    }
+    .search-input-container-two {
+      display: flex;
+      width: 90%;
+    }
+  }
+  .playlist{
+    color:green;
+    text-emphasis-color: white;
+    margin-left:30rem;
+    width:3pc;
+  }

@@ -1,0 +1,31 @@
+.sidebar-container {
+    margin-top: 0rem;
+    width: 7rem;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 5rem;
+    align-items: center;
+    color: var(--green-color);
+    background-color: var(--background-color);
+  }
+  .sidebar {
+    padding-left: 0;
+    gap: 2rem;
+  }
+  .sidebar-item {
+    list-style: none;
+    gap: 0.5rem;
+  }
+  .sidebar-icon {
+    font-size: 1.5rem;
+  }
+  .sidebar-item-text {
+    font-size: 0.8rem;
+  }
+  @media screen and (max-width: 900px) {
+    .sidebar-container {
+      display: none;
+    }
+  }
+  
