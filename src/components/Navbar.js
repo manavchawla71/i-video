@@ -28,17 +28,19 @@ const Navbar = () => {
             />
           )}
 
-          <Link to="/" element={<HomePage />}>
-            <div
-              className="navbar-title"
-              style={{
-                color: "var(--light-green-color)",
-                textDecoration: "none",
-              }}
-            >
-              IVideo
-            </div>
-          </Link>
+          <div>
+            <Link to="/" className="link link-color" element={<HomePage />}>
+              <div
+                className="navbar-title"
+                style={{
+                  color: "var(--light-green-color)",
+                  textDecoration: "none",
+                }}
+              >
+                IVideo
+              </div>
+            </Link>
+          </div>
         </div>
 
         {location.pathname === "/video" && (
