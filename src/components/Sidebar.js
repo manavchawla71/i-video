@@ -5,7 +5,7 @@ import { HiHome } from "react-icons/hi";
 import {
   BsFillBookmarkFill,
   BsPlayBtnFill,
-  BsCollectionPlayFill,
+  // BsCollectionPlayFill,
 } from "react-icons/bs";
 import { AiFillLike, AiOutlineHistory } from "react-icons/ai";
 

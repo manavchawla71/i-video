@@ -7,7 +7,7 @@ const AuthContext = createContext();
 const AuthProvider = ({ children }) => {
   const [isUserLoggedIn, setisUserLoggedIn] = useState(false);
   const navigate = useNavigate();
-  const location = useLocation(); // Add this line to useLocation
+  // const location = useLocation(); // Add this line to useLocation
   const userLoginService = () => {
     toast.success("logged in successfully");
     navigate("/video");

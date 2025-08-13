@@ -7,7 +7,7 @@ import { useMainContext } from "../context/MainContext";
 import "./VideoListingCard.css";
 
 const VideoListingCard = () => {
-  const [isDialogOpen, setIsDialogOpen] = useState({});
+  // const [isDialogOpen, setIsDialogOpen] = useState({});
 
   const { searchInput, selectedCategory, addtohistory, historyvideos } =
     useMainContext();

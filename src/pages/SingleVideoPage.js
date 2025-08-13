@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 import { AiFillLike, AiOutlineLike } from "react-icons/ai";
 import {
   BsFillBookmarkFill,
-  BsCollectionPlayFill,
+  // BsCollectionPlayFill,
   BsDot,
-  BsFillBookmarkDashFill,
+  // BsFillBookmarkDashFill,
   BsBookmark,
-  BsShare,
+  // BsShare,
   BsFillShareFill,
 } from "react-icons/bs";
 import "./SingleVideoPage.css";
@@ -17,7 +17,7 @@ import { videos } from "../backend/videos";
 import { useMainContext } from "../context/MainContext";
 
 export const SingleVideoPage = () => {
-  const [singlePageModal, setSinglePageModal] = useState(false);
+  // const [singlePageModal, setSinglePageModal] = useState(false);
   const { addtolikes, likevideos, addtobookmark, bookmarkvideos, searchInput } =
     useMainContext();
   const videoId = useParams();
