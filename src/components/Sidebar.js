@@ -16,7 +16,7 @@ const Sidebar = () => {
         <Link to="/" className="link link-color">
           <li className="sidebar-item flex-col">
             <HiHome className="sidebar-icon" />
-            <span className="sidebar-item-text"> Homeone</span>
+            <span className="sidebar-item-text">Home</span>
           </li>
         </Link>
 
