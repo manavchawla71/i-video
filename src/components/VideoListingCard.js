@@ -12,12 +12,12 @@ const VideoListingCard = () => {
   const { searchInput, selectedCategory, addtohistory, historyvideos } =
     useMainContext();
 
-  const toggleDialog = (videoId) => {
-    setIsDialogOpen((prevOpenDialogs) => ({
-      ...prevOpenDialogs,
-      [videoId]: !prevOpenDialogs[videoId],
-    }));
-  };
+  // const toggleDialog = (videoId) => {
+  //   setIsDialogOpen((prevOpenDialogs) => ({
+  //     ...prevOpenDialogs,
+  //     [videoId]: !prevOpenDialogs[videoId],
+  //   }));
+  // };
 
   const filteredVideos = videos.filter((video) =>
     video.title.toLowerCase().includes(searchInput.toLowerCase())
@@ -57,7 +57,7 @@ const VideoListingCard = () => {
           <p className="video-date">Date: {video.date}</p>
           <p className="video-category">Category: {video.categoryName}</p>
 
-          <BsThreeDotsVertical onClick={() => toggleDialog(video._id)} />
+          {/* <BsThreeDotsVertical onClick={() => toggleDialog(video._id)} /> */}
           {/* {isDialogOpen[video._id] && (
             <div className="dialog-box">
               <button>Create Playlist</button>
