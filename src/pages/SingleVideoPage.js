@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import clipboard from "clipboard-copy";
 import { Link } from "react-router-dom";

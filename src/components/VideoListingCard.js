@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom"; // Import Link component
 import { videos } from "../backend/videos";
-import { BsThreeDotsVertical } from "react-icons/bs";
+// import { BsThreeDotsVertical } from "react-icons/bs";
 // import VideoOptionsDrawer from "./VideoOptionsDrawer/VideoOptionsDrawer";
 import { useMainContext } from "../context/MainContext";
 import "./VideoListingCard.css";
